@@ -1,6 +1,6 @@
 # QuantumVault Smart Contract
 
-A quantum-inspired gambling contract implementing Schrödinger's cat paradox on the Ethereum blockchain. Players create mystery boxes that exist in quantum superposition until observed, with prize outcomes determined by probabilistic quantum mechanics.
+A quantum-inspired gambling contract implementing Schrödinger's cat paradox on the Core blockchain. Players create mystery boxes that exist in quantum superposition until observed, with prize outcomes determined by probabilistic quantum mechanics.
 
 ## Table of Contents
 
@@ -78,12 +78,12 @@ box.hasPrize = (uint256(keccak256(abi.encodePacked(
 ### Step 1: Create a Mystery Box
 
 ```solidity
-// Send at least 0.01 ETH to create your quantum box
+// Send at least 0.01 TCORE2 to create your quantum box
 quantumVault.createBox{value: 0.05 ether}();
 ```
 
 **Requirements:**
-- Minimum deposit: 0.01 ETH
+- Minimum deposit: 0.01 TCORE2
 - One box per address
 - Box enters quantum superposition immediately
 
@@ -129,7 +129,7 @@ quantumVault.releaseTheCat();
 | Scenario | Outcome | Prize |
 |----------|---------|--------|
 | Win (Observed) | Prize Found | 2x Deposit |
-| Lose (Observed) | Empty Box | 0 ETH |
+| Lose (Observed) | Empty Box | 0 TCORE2 |
 | Expired Box | Cat Released | Random Jackpot Distribution |
 
 ### Quantum States
@@ -160,10 +160,10 @@ Box Creation → [SUPERPOSITION] → Observation → [COLLAPSED STATE]
 Creates a new mystery box in quantum superposition.
 
 **Parameters:**
-- `msg.value`: ETH deposit (minimum 0.01 ETH)
+- `msg.value`: TCORE2 deposit (minimum 0.01 TCORE2)
 
 **Requirements:**
-- Minimum 0.01 ETH deposit
+- Minimum 0.01 TCORE2 deposit
 - One box per address
 - No existing active box
 
@@ -253,7 +253,7 @@ The contract uses a combination of:
 ### Prerequisites
 - Solidity ^0.8.0
 - Hardhat or Truffle development environment
-- Testnet ETH for deployment
+- Testnet TCORE2 for deployment
 
 ### Deployment Script
 
@@ -352,7 +352,7 @@ describe("QuantumVault", function () {
 ### Technical Risks
 
 - **Gas Price Volatility**: High gas prices may make small bets uneconomical
-- **Network Congestion**: Ethereum network issues may prevent timely observations
+- **Network Congestion**: Core network issues may prevent timely observations
 - **Contract Bugs**: Despite testing, smart contracts may contain vulnerabilities
 
 ### Legal Considerations
