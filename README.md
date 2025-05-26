@@ -409,8 +409,8 @@ MIT License - See LICENSE file for details.
 
 # Deployment Details
 
-## Deployed Contract Address: 0xCf7B8F6dE2Ff4f41E763a2507E2b4fF077f10637
+## **Deployed Contract Address:** [`0xCf7B8F6dE2Ff4f41E763a2507E2b4fF077f10637`](https://scan.test2.btcs.network/address/0xCf7B8F6dE2Ff4f41E763a2507E2b4fF077f10637)
 
-## Deployment Transaction Hash: 0xc501c0dcf119c5131282830d40a6f2a0addeffe2a76197342a5f7b0ac0559de8
+## **Deployment Transaction:** [`0xc501c0dcf119c5131282830d40a6f2a0addeffe2a76197342a5f7b0ac0559de8`](https://scan.test2.btcs.network/tx/0xc501c0dcf119c5131282830d40a6f2a0addeffe2a76197342a5f7b0ac0559de8)
 
 <img width="1401" alt="image" src="https://github.com/user-attachments/assets/a1836a0d-e0db-45e7-a769-80d15eaf4031" />
